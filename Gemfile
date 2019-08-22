@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
+gem 'devise'
+gem 'milia'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -53,3 +55,4 @@ group :production do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'rails_12factor'
 end
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
