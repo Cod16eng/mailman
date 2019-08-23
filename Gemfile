@@ -36,7 +36,7 @@ gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails',
                               :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
 gem 'jquery-rails'
-
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
